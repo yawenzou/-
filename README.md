@@ -20,12 +20,10 @@ var objEle = eve.target || eve.srcElement;
     </code>
 </pre>
 ###图片预览
-<pre>
-    <code>
-    <div id="previewImg" ></div>
+```html
+    <div id="previewImg"></div>
     <input type="file" onchange="PreviewImage(this,'previewImg');" />
-    </code>
-</pre>
+```
 <pre>
     <code>
 //js本地图片预览，兼容ie[5-9]、火狐、Chrome17+、Opera11+、Maxthon3
