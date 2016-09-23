@@ -22,7 +22,7 @@ var objEle = eve.target || eve.srcElement;
 ###图片预览
 <pre>
     <code>
-<div id="previewImg" ></div>
+    <div id="previewImg" ></div>
     <input type="file" onchange="PreviewImage(this,'previewImg');" />
     </code>
 </pre>
